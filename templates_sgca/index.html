@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="home">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Bem vindo</title>
+</head>
+<body>
+    <h1 class="home">SGCA - Sistema de Gestão e Controle de Almoxarifados</h1>
+    <a href="{% url 'newMateriais' %}">Novo Material</a>
+    <form action="{% url 'newMateriais' %}">
+        <button type="submit">Novo Material</button>
+    </form><br>
+    <img src="{% static 'imagens/almoxarifado.png' %}" alt="almoxarifado logo">
+</body>
+</html>
