@@ -1,24 +1,32 @@
 {% extends 'base.html' %}
 
-{% block title %} Seja bem vindo(a) {% endblock %}
+{% block title %} SGCA - Seja bem vindo(a) {% endblock %}
 
 {% block main %}
 
-<h1 class="home">SGCA - Sistema de Gestão e Controle de Almoxarifados</h1>
+    <div class="row">
+        <div class="col-sm">
 
-    {% if user.is_authenticated %}
-        <p>Olá {{ user.username }}</p>
-        <a href="{% url 'logout' %}">Sair</a>
-    {% else %}
-        <a href="{% url 'login' %}">Entrar</a>
-    {% endif %}
+        </div>
+        <div class="col-sm">
+            <h3>Eazy Almoxarifado</h3>
+        </div>
+        <div class="col-sm">
+            {% if user.is_authenticated %}
+                <p>Olá {{ user.username }}</p>
+                <a href="{% url 'logout' %}">Sair</a>
+            {% else %}
+                <a href="{% url 'login' %}" class="btn btn-primary">Entrar</a>
+            {% endif %}
+        </div>
+    </div>
 
-    <a href="{% url 'newMateriais' %}">Novo Material</a>
-    <form action="{% url 'newMateriais' %}">
-        <button type="submit" class="btn btn-primary">Novo Material</button>
-    </form><br>
+{% endblock %}
 
-    {% load static %}
-    <img src="{% static 'imagens/almoxarifado.png' %}" alt="almoxarifado logo">
-
+{% block footer %}
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">SGCE - Sistema de Gestão e Controle de Almoxarifados</span>
+        </div>
+    </footer>
 {% endblock %}

@@ -5,7 +5,7 @@
 
 {% block main %}
 
-    <h2>Login<h2>
+    <h3>Login<h3>
 
     <form method="post">
         {% csrf_token %}
@@ -14,4 +14,12 @@
         <button type="submit" class="btn btn-primary">Entrar</button>
     </form>
 
+{% endblock %}
+
+{% block footer %}
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">SGCE - Sistema de Gestão e Controle de Almoxarifados</span>
+        </div>
+    </footer>
 {% endblock %}
