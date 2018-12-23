@@ -1,15 +1,10 @@
-{% load static %}
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="home">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-    <title>Bem vindo</title>
-</head>
-<body>
-    <h1 class="home">SGCA - Sistema de Gestão e Controle de Almoxarifados</h1>
+{% block title %} Seja bem vindo(a) {% endblock %}
+
+{% block main %}
+
+<h1 class="home">SGCA - Sistema de Gestão e Controle de Almoxarifados</h1>
 
     {% if user.is_authenticated %}
         <p>Olá {{ user.username }}</p>
@@ -20,8 +15,10 @@
 
     <a href="{% url 'newMateriais' %}">Novo Material</a>
     <form action="{% url 'newMateriais' %}">
-        <button type="submit">Novo Material</button>
+        <button type="submit" class="btn btn-primary">Novo Material</button>
     </form><br>
+
+    {% load static %}
     <img src="{% static 'imagens/almoxarifado.png' %}" alt="almoxarifado logo">
-</body>
-</html>
+
+{% endblock %}
