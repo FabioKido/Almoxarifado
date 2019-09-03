@@ -1,0 +1,13 @@
+--------- Mini Mundo SGCA
+
+O Sistema de Gestão e Controle de Almoxarifados será empregado de forma que, atenderá as atividades de um almoxarifado convencional. Sendo elas basicamente o controle de entradas, saidas e gestão da armazenagem de materiais. Na entrada ou recebimento de materiais, o almoxarife primeiro solicita o material para a compra, após isso, o recebimento abrangerá desde a recepção do material na entrega pelo fornecedor, até a entrada no estoque feito pelo almoxarife, onde o mesmo, lançará toda essas operações no sistema, fazendo assim o efetivo controle do recebimento do material, avaliando a qualidade, quantidade e ragularizando a entrada, ou recusando a mesma.
+
+Na saida ou distribuição, o almoxarife irá primeiro atender a uma requisição de material, onde essa, será registrada no sistema. Depois da requisição do material o almoxarife dará o inicio a operação de saida do material, verificando todas as exigências do pedido, ou seja, distribuição aos interessados mediante uma programação expecifica, quantidade, etc. Novamente após, lançará toda essas operações no sistema, fazendo assim o efetivo controle da distribuição do material, ragularizando a saida, ou a devolução de material ao estoque do almoxarifado, as quantidades de material por acaso requisitadas além do necessário, controlar o retorno de mercadorias que são obrigadas a voltarem ao almoxarifado.
+
+No que tange a armazenagem, o seu processo será todo registrado no sistema pelo almoxarife, tendo cuidados especiais. O almoxarife irá identificalos, informar localização física do material, entre outros, preservar a qualidade e as quantidades exatas, podendo assim, assegurar que o material esteja, na quantidade devida e no local certo facilmente disponiveis. 
+
+O almoxarife controla as quantidades que se encontram à disposição, em processo de recebimento, as devoluções ao fornecedor e as compras recebidas e aceitas. E deverá apresentar os indicadores de suas atividades, como relatórios de eficiência, a fim de proporcionar otimização do gerenciamento, controle do histórico dos itens, e sendo capaz de apresentar quando solicitado um inventário com todos os materias e suas devidas informações, resumindo, o controle efetivo do recebimento, armazenagem e distribuição, tal qual, o sistema deverá ser capaz de fazer.
+
+
+-----------------------------
+

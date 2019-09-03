@@ -1,0 +1,43 @@
+--------- Atividades -----------
+
+1 - Entrada/Recebimento de material	ok
+
+2 - Saida/distribuição de material	ok
+
+3 - Armazenagem/estocagem de material	ok	
+
+4 - Solicitação/comprar/aquisição de material	ok
+
+5 - Requisição/pedir de material	ok
+
+6 - Devolução de material	ok
+
+7 - Controlar processos		ok
+
+
+--------------------------------
+
+
+O Sistema deverá permitir que... Entregar os materiais mediante requisições autorizadas aos usuários da empresa.
+
+A possibilidade de ter um inventário sobre todos os itens...
+
+Preservar a qualidade e as quantidades exatas... assegurar que o material esteja, na quantidade devida, no local certo, quando necessário...
+
+Na racionalização do almoxarifado deve-se ter em conta o cálculo das quantidades de produtos que se deve possuir em estoque.
+
+Quantidade, reposição, armazenagem, validade, controle do uso...  registro das compras feitas e a fazer. Quantidades de produtos que se deve possuir em estoque.
+
+O setor deve apresentar os indicadores de suas atividades, como relatórios de eficiência, a fim de proporcionar otimização do gerenciamento, controle do histórico dos itens.
+
+O controle deve fornecer a qualquer momento as quantidades que se encontram à disposição em processo de recebimento, as devoluções ao fornecedor e as compras recebidas e aceitas.
+
+Devolução de material : documento utilizado para devolver ao estoque do almoxarifado as quantidades de material porventura requisitadas além do necessário.
+
+Cadastramento no sistema das informações referentes a compras autorizadas, para as quais se inicia o processo de recebimento.
+
+Recebimento é a atividade intermediária entre as tarefas de compra e pagamento ao fornecedor...
+
+providenciar a regularização da recusa, devolução ou da liberação de pagamento ao fornecedor...
+
+Localização de materiais é estabelecer os meios necessários à perfeita identificação da localização dos materiais(Códigos).
